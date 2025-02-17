@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <La/>
-      bia tel
+    <p>salalammmm</p>
     </div>
   )
 }
