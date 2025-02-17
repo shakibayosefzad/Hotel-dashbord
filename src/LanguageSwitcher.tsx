@@ -1,8 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import "./Gggg/i18n"; // این خط رو اضافه کن تا i18n اجرا بشه
+import "./i18n";
 
-const La: React.FC = () => {
+const LanguageSwitcher: React.FC = () => {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = () => {
@@ -17,4 +17,4 @@ const La: React.FC = () => {
   );
 };
 
-export default La;
+export default LanguageSwitcher;

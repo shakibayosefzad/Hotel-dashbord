@@ -1,11 +1,10 @@
 import React from 'react'
-import La from './L'
+import LanguageSwitcher from "./LanguageSwitcher";
 
 function App() {
   return (
     <div>
-      <La/>
-    <p>salalammmm</p>
+      <LanguageSwitcher />
     </div>
   )
 }

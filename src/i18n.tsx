@@ -3,8 +3,8 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import Backend from "i18next-http-backend";
 
-import enTranslation from "../locales/en.json";
-import faTranslation from "../locales/fa.json";
+import enTranslation from "./locales/en.json";
+import faTranslation from "./locales/fa.json";
 
 i18n
   .use(Backend) // برای لود کردن فایل‌های ترجمه
