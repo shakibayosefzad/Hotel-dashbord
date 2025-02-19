@@ -1,10 +1,11 @@
 import React from 'react'
-import LanguageSwitcher from "./LanguageSwitcher";
+import Layout from './layout/Layout'
 
 function App() {
   return (
     <div>
-      <LanguageSwitcher />
+      <Layout>
+        </Layout>
     </div>
   )
 }
