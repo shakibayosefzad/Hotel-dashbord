@@ -1,6 +1,6 @@
 import React from 'react'
 import Searchbox from "../Header/Searchbox/Searchbox"
-import LanguageSwitcher from './LanguageSwitcher/LanguageSwitcher'
+import LangugeToggle from './LangugeToggle/LangugeToggle'
 import ProfileAvatar from '../ProfileAvatar/ProfileAvatar'
 import DarkModeToggle from '../DarkModeToggle/DarkModeToggle'
 
@@ -12,7 +12,7 @@ function Header() {
       <Searchbox />
       <div className='flex items-center'>
         <DarkModeToggle/>
-      <LanguageSwitcher/>
+      <LangugeToggle/>
       <ProfileAvatar src="/path-to-image.jpg" size="w-16 h-16" />
       </div>
       </div>

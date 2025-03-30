@@ -6,3 +6,14 @@ html {
 .dark {
   @apply bg-gray-900 text-white;
 }
+
+body {
+  direction: ltr;
+  font-family: 'Arial', sans-serif;  /* می‌تونی فونت دلخواهت رو بذاری */
+}
+
+/* زمانی که زبان فارسی انتخاب می‌شه */
+body[lang="fa"] {
+  direction: rtl;
+  font-family: "Vazirmatn", sans-serif; /* یا هر فونت فارسی دیگه که می‌خواهی */
+}
